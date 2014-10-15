@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-10 15:46+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/deeds/deed.html:2 templates/index/index.html:3
+#, fuzzy
+msgid "I'm in!"
+msgstr "Я в деле!"
+
+#: templates/index/index.html:2
+msgid "Today's Deed:"
+msgstr "Сегодняшний Подвиг дня:"
+
+#: templates/index/menu.html:2
+msgid "Donate"
+msgstr "Помочь нам"
+
+#: templates/index/menu.html:3
+msgid "Settings"
+msgstr "Настройки"
+
+#: templates/index/menu.html:4
+msgid "Me"
+msgstr "Я"
+
+#: templates/index/menu.html:5
+msgid "Deed a day"
+msgstr "Подвиг дня"
+
+#: templates/user/stat.html:2
+msgid "Deeds done"
+msgstr "Совершено подвигов"
+
+#: templates/user/stat.html:3
+msgid "Favorite deeds"
+msgstr "Любимые подвиги"
+
+#: templates/user/stat.html:4
+msgid "No deeds so far!"
+msgstr "Подвигов пока нет!"
+
+#: templates/user/stat.html:5
+msgid "pledged to"
+msgstr "пообещал_а"

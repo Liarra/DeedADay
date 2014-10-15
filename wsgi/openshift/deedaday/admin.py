@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from openshift.models.models import Deed, Tag, Hardness, DeedUser
+from deedaday.models import Deed, Tag, Hardness, DeedUser
 
 admin.site.register(Tag)
 admin.site.register(Hardness)

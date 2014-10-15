@@ -15,8 +15,8 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
     
-    url(r'^$', 'openshift.views.index', name='index'),  
-    url(r'^deeds/(?P<deed_id>\d+)/$',  'openshift.views.deed', name='Deed detail'),   
-    url(r'^user/(?P<user_id>\d+)/$',  'openshift.views.userpage', name='User page'),   
-    url(r'^send/$',  'openshift.views.sendADeed', name='Send your deed'),
+    url(r'^$', 'deedaday.views.index', name='index'),  
+    url(r'^deeds/(?P<deed_id>\d+)/$',  'deedaday.views.deed', name='Deed detail'),   
+    url(r'^user/(?P<user_id>\d+)/$',  'deedaday.views.userpage', name='User page'),   
+    url(r'^send/$',  'deedaday.views.sendADeed', name='Send your deed'),
 )
