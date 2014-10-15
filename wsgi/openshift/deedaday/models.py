@@ -20,7 +20,7 @@ class Deed(models.Model):
 	description=models.CharField(max_length=500)
 	hardness=models.ForeignKey(Hardness)
 	tags=models.ManyToManyField(Tag)
-	image=models.ImageField(upload_to='deeds_img/')
+	image=models.CharField(max_length=256)
 	
 	def __unicode__(self):
 		 return self.name
