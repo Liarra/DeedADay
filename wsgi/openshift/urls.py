@@ -6,7 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'openshift.views.home', name='home'),
+    #url(r'^$', 'openshift.views.home', name='home'),
     # url(r'^openshift/', include('openshift.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
@@ -14,4 +14,9 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
+    
+    url(r'^$', 'openshift.views.index', name='index'),  
+    url(r'^deeds/(?P<deed_id>\d+)/$',  'openshift.views.deed', name='Deed detail'),   
+    url(r'^user/(?P<user_id>\d+)/$',  'openshift.views.userpage', name='User page'),   
+    url(r'^send/$',  'openshift.views.sendADeed', name='Send your deed'),
 )
