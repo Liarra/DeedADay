@@ -3,7 +3,7 @@ import os
 from django.shortcuts import render_to_response, render
 from django.template import RequestContext, loader
 from django.http import HttpResponse
-from models import Deed
+from models.models import Deed
 
 def home(request):
     return render_to_response('home/home.html')
