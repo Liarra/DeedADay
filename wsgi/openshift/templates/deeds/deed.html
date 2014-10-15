@@ -29,8 +29,8 @@
 					<img id="deed_img" src="{{MEDIA_URL}}{{deed.image}}" height=400px;/>
 					<h2>{{ deed.name }}</h2>
 					<p>{{ deed.description }}</p>
-					<p><a class="btn btn-primary btn-lg" role="button" href="{% url 'Deed detail' deed.id %}">{{imin}}</a></p>
-				</div>
+					<p><a class="btn btn-primary btn-lg" role="button" href="/deedaday/deeds/{{deed.id}}">{{imin}}</a></p>
+				</div>/
 			</div>
 			</div>
 	</body>
