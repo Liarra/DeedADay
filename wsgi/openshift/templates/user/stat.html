@@ -48,12 +48,12 @@
 		{% for deed in user_deeds %}
 		<div class="row">
 			<div class="col-md-2 pic_col">
-				<a href="{% url 'Deed detail' deed.id %}">
+				<a href="/deedaday/deeds/{{deed.id}}">
 				<img src={{ MEDIA_URL }}{{deed.image}} class="img-circle img-responsive hover_shine"/>
 				</a>
 			</div>
 			
-			<a href="{% url 'Deed detail' deed.id %}">
+			<a href="/deedaday/deeds/{{deed.id}}">
 			<div class="col-md-8">{{deed.name}}</div>
 			</a>
 			
