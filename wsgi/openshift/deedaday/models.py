@@ -21,6 +21,7 @@ class Deed(models.Model):
 	hardness=models.ForeignKey(Hardness)
 	tags=models.ManyToManyField(Tag)
 	image=models.CharField(max_length=256)
+	link=models.CharField(max_length=256, blank=True)
 	
 	def __unicode__(self):
 		 return self.name
