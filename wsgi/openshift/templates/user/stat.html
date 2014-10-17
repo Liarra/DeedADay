@@ -32,8 +32,9 @@
 			<div class="jumbotron img-rounded" id="user_stat_jumbo">
 				
 				<div style="text-align:right">
-				<h1>{{ user_name }}</h1>
-				<h2>{{ deeds_num }}: <large>{{user_deeds_num}}</large></h2>
+
+				<h1> {{user.first_name }} {{ user.last_name }}</h1>
+				<h2>{{ deeds_num }}: <large>{{ user_deeds_len }}</large></h2>
 				
 				<h3>{{favorite_deeds}}:</h3>
 			</div>
