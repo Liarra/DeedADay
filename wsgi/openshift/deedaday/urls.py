@@ -7,7 +7,7 @@ urlpatterns = patterns('',
     url(r'^$facebook/$', views.index_fb, name='index'),  
     url(r'^$vk/$', views.index_vk, name='index'),  
     url(r'^deeds/(?P<deed_id>\d+)/$', views.deed, name='Deed detail'),   
-    url(r'^user/(?P<user_id>\d+)/$', views.userpage, name='User page'),   
+    url(r'^user/$', views.userpage, name='User page'),   
     url(r'^send/$', views.sendADeed, name='Send your deed'),
     )
 
