@@ -1,14 +1,19 @@
 .hover_shine:hover{
-	 box-shadow: 0px 0px 20px LightSkyBlue;
+	 box-shadow: 0px 0px 20px #98C8F2;
+}
+
+a {
+color:#3FA3DE;
+
 }
 
 a:hover{
 	text-decoration:none;
-	color: LightSkyBlue;
+	color: #5FC3FE;
 }
 
 #main_menu{
-	background: LightSkyBlue;
+	background: #D7EBF7;
 }
 
 #main_menu div{
@@ -20,6 +25,10 @@ a:hover{
 }
 
 .jumbotron{
-background:azure;
-box-shadow: 0px 0px 13px LightSkyBlue;
+background:#D7EBF7;
+box-shadow: 0px 0px 13px #D7EBF7;
+}
+
+body{
+color:#1B455E
 }
