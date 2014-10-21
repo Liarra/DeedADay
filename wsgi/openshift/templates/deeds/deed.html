@@ -6,22 +6,14 @@
 		<link rel="stylesheet" href="{{ STATIC_URL }}/css/main.css" />
 		<style>
 			#deed_jumbo{
-			background:#D7EBF7;
+			background:azure;
 			background-size:contain;
 			overflow:auto;
-			position:relative;
 		}
 		
 		#deed_img{
 			float:left;
 			margin-right:40px;
-		}
-		
-		#deed_jumbo .btn{
-			position:absolute;
-			bottom:40;
-			right:40;	
-			width:150px;
 		}
 		</style>
 	</head>
@@ -36,12 +28,8 @@
 				<div>
 					<img id="deed_img" src="{{ STATIC_URL }}img/deeds/{{deed.image}}" height=400px;/>
 					<h2>{{ deed.name }}</h2>
-					<div>
-						<p>{{ deed.description }}</p>
-						
-					</div>
-					
-					<a class="btn btn-primary btn-lg" role="button" href="/deedaday/deeds/{{deed.id}}">{{imin}}</a>
+					<p>{{ deed.description }}</p>
+					<p><a class="btn btn-primary btn-lg" role="button" href="/deedaday/deeds/{{deed.id}}">{{imin}}</a></p>
 				</div>
 			</div>
 			</div>
