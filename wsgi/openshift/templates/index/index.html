@@ -7,16 +7,8 @@
 	<link rel="stylesheet" href="{{ STATIC_URL }}css/main.css" />
 	<style>
 		#random_deed_jumbo{
-			background: #3FA3DE url({{ STATIC_URL }}img/deeds/{{random_deed.image}}) top left no-repeat;
-			color:#D7EBF7;
+			background:azure url({{ STATIC_URL }}img/deeds/{{random_deed.image}}) top left no-repeat;
 			background-size:contain;
-		}
-		
-		#random_deed_jumbo a{
-			color:white;
-			font-size:x-large;
-			border: 1px solid white;
-			padding:10px;
 		}
 	</style>
 </head>
@@ -32,9 +24,7 @@
 				<div style="text-align:right">
 				<h2>{{today}}</h2>
 				<h1>{{ random_deed.name }}</h1>
-				<br/>
-				<a href= "/deedaday/deeds/{{random_deed.id}}">{{imin}} >></a>
-				<!--<p><a class="btn btn-primary btn-lg" role="button" href="/deedaday/deeds/{{random_deed.id}}">{{imin}}</a></p> -->
+				<p><a class="btn btn-primary btn-lg" role="button" href="/deedaday/deeds/{{random_deed.id}}">{{imin}}</a></p>
 				</div>
 			</div>
 		</div>
