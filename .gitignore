@@ -5,3 +5,6 @@
 *~
 .project
 .pydevproject
+dist/
+db_data.json
+*.egg-info/
